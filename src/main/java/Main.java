@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
         NutritionalValue nutritionalOne = new NutritionalValue();
         PostScriptum postScriptum = new PostScriptum();
-
         Burger burgerOne = new Burger();
 
         burgerOne.name = "De Luxe Chefburger";
@@ -26,7 +25,6 @@ public class Main {
         System.out.println("Image link " + burgerOne.imageUrl);
         System.out.println("* " + postScriptum.clarificationOne);
         System.out.println("** " + postScriptum.clarificationTwo);
-
 
         System.out.println('\n');
 
