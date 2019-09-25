@@ -6,5 +6,7 @@ public class Burger {
     String imageUrl;
     String description;
     int calories;
+    NutritionalValue nutritionalValue;
+    PostScriptum postScriptum;
 }
 
